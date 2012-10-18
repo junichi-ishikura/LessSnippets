@@ -89,18 +89,25 @@
   -moz-box-shadow   : @arguments;
   box-shadow        : @arguments;
 }
-.box-shadow-double(@value1, @value2) {
+.box-shadow2(@value1, @value2) {
   @val              :@value1, @value2;
   -webkit-box-shadow:@val;
   -moz-box-shadow   :@val;
   box-shadow        :@val;
 }
-.box-shadow-triple(@value1, @value2, @value3) {
+.box-shadow3(@value1, @value2, @value3) {
   @val              :@value1, @value2, @value3;
   -webkit-box-shadow:@val;
   -moz-box-shadow   :@val;
   box-shadow        :@val;
 }
+.box-shadow4(@value1, @value2, @value3, @value4) {
+  @val              :@value1, @value2, @value3, @value4;
+  -webkit-box-shadow:@val;
+  -moz-box-shadow   :@val;
+  box-shadow        :@val;
+}
+
 /*** Opacity ***/
 .opacity(@opacity: 100) {
   -webkit-opacity: @opacity / 100;
